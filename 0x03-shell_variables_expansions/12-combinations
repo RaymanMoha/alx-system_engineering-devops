@@ -1,0 +1,2 @@
+#!/bin/bash
+printf %sn {a..z}{a..z} | grep -v
