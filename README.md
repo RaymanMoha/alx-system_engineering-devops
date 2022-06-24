@@ -1,6 +1,6 @@
 # System engineering & Devops
 
-Module of **System engineering** and **Devops**, carried out during **Full Stack Software Engineering studies** at **Alx**.
+Module of **System engineering** and **Devops**, i will be carrying out during **Full Stack Software Engineering studies** at **Alx**.
 
 ## Technologies
 * Scripts written in Bash 4.3.11(1)
@@ -8,7 +8,7 @@ Module of **System engineering** and **Devops**, carried out during **Full Stack
 * Puppet 3.8
 
 ## Projects
-All of the following folders are projects done during the studies:
+All of the following folders are projects i will be working on during the studies:
 
 | Project name | Description |
 | ------------ | ----------- |
