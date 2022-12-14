@@ -1,4 +1,5 @@
 # Attack is the best defense
+ While today’s network security is much stronger than it used to be, there are still some legacy systems that are using unencrypted communication means. A popular one is telnet. In this project, we will not go over ARP spoofing, but we’ll start by sniffing unencrypted traffic and getting information out of i. Sendgrid offers is an emailing service that provides state of the art secure system to send emails, but also supports a legacy unsecured way: telnet. You can create an account for free, which is what I did, and send an email using telnet:
 
 ## Description
 What you should learn from this project:
