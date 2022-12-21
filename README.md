@@ -1,4 +1,7 @@
-# System engineering & Devops
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+
+# ALX System Engineering and DevOps 💥
+
 
 Module of **System engineering** and **Devops**, carried out during **Full Stack Software Engineering studies** at **[ALX](https://www.ALXAFRICA.com/)**.
 
