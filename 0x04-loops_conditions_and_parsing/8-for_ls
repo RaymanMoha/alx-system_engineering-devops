@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#displays the content of the current directory
+#In a list format where only the part of the name after the first dash is displayed
+#must use the for loop (while and until are forbidden)
+#Do not display hidden files
+
+for i in *
+do
+	echo "$i" | cut -d '-' -f2
+done
