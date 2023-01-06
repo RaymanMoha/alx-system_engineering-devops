@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
-# Generate a ssh key pair
-ssh-keygen -b 4096 -f holberton -t rsa -P hello
+# Bash script that creates a RSA key pair with the following specifics:
+# name of key: betty
+# bits in the created key: 4096
+# key must be protected by a passphrase
+ssh-keygen -b 4096 -f betty -t rsa -P hello
