@@ -1,21 +1,9 @@
 #!/usr/bin/env bash
-# Configures an Nginx server so that /redirect_me redirects to another page.
-# The redirection is configured as a "301 Moved Permanently"
+#install ngix and put holberton inside
+redir="\\\tlocation /redirect_me {\n\t\t return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
 
-apt-get update
-apt-get install -y nginx
-
-mkdir -p /etc/nginx/html/
-echo "Hello World!" > /etc/nginx/html/index.html
-printf %s "server {
-    listen 80;
-    listen [::]:80 default_server;
-    root   /etc/nginx/html;
-    index  index.html index.htm;
-
-    location /redirect_me {
-    	return 301 https://youtu.be/dQw4w9WgXcQ;
-    }
-}" > /etc/nginx/sites-available/default
-
-service nginx restart
+sudo apt-get update
+sudo apt-get install nginx -y
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+sudo sed -i "30i $redir" /etc/nginx/sites-available/default
+sudo service nginx start
