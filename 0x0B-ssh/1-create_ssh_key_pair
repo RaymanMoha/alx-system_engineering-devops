@@ -3,4 +3,4 @@
 # name of key: betty
 # bits in the created key: 4096
 # key must be protected by a passphrase
-ssh-keygen -b 4096 -f betty -t rsa -P hello
+ssh-keygen -b 4096 -f school -t rsa -N betty
